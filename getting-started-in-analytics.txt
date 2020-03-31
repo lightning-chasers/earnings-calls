@@ -1,0 +1,31 @@
+﻿@Author: sameer.khan@uwaterloo.ca
+@Date: 2019-10-19
+@Version: 0.1
+
+
+Purpose of this document is to support researchers who aim to start a project involving any form of data collection, analysis and reporting. By going through the following foundational steps the researchers can improve or maintain the quality of work deliverable to project stakeholders.  
+
+
+Outline of steps involved in analytics, data visualization and presentation.
+1. Ethical and moral conduct
+   1. Please review the department's and the institute's code of ethics upon being employed formally to work on analytical and/or manual labour. Informal and unofficial employment within registered organizations is generally not permissible or acceptable.
+   2. Working on informal projects or assignments outside the scope of the institute and not conflicting with existing data protection and privacy policies may encourage social cohesion and team building.
+2. Reporting working hours and remuneration
+   1. Analytics as a basic form of cognitive work takes up a continuous supply of attentional and material resources. However, payment or compensation or remuneration for such work is discretized and transactional whether it be in the form of wages or salary. So it is necessary to track a proxy for attentional resources in the form of time spent in actively composing any draft or formalized materials. 
+   2. A conventional method is to multiply an hourly wage by the number of hours spent on a job or task. The wage accounts for the passive as well as active attention and resources dedicated to the job. The hours may be estimated beforehand by an experienced analyst for standard jobs. However, non standard jobs may demand atypical creativity in handling risks or challenges along with indefinite time constraints. This typically does not fit into the wage x hours formula without impromptu demand based negotiation for both wage as well as hours which can increase the overhead for maintaining a cash flow and workflow for all stakeholders.
+   3. It is crucial to track and maintain a cash flow to sustain the workflow and to maintain each person's (worker’s) functional needs. 
+   4. Payments may be weekly, biweekly or monthly. And there can be various administrative inconsistencies, irregularities and unexpected changes in the overall system for tracking as well as reporting the hours.
+   5. The overhead and burden of maintaining acceptable levels of reporting is usually highest in gig, casual or contracted work because of triple or quadruple redundancies in the overall reporting method. Salaried positions may involve lower overheads. To reduce such burden and improve quality as well as consistency of the work, the stakeholders can adopt the following basic tools and procedures
+      1. Have an orientation session with department staff in charge of helping with reporting, rights and responsibilities along with the analyst's direct supervisor(s). Avoid any confusion or lack of understanding in the assigned responsibilities, payment, resources to be used and policies to be followed. The work method and use of any online or offline tools prescribed as a part of an assignment or task and associated copyrights are to be clearly delineated.
+      2. Use an app like Toggle for personal time tracking. Sincerely start and stop the time spent on assignment related travel, research, analysis, writeups, meetings, compositions and presentations. 
+      3. More sophisticated tools like Asana can be used for project management, collaboration, time management and content management. Though Asana may have a longer learning curve, adopting its style of task breakdown and goal setting is suitable for all conceivable professional jobs.
+3. Personal care and health
+   1. Any assignment and its related parts are to be done in a safe and hygienic environment that is conducive to maintaining good mental and physical health for all persons involved with the assignment. Some of the basic considerations for workers include appropriate ventilation, lighting, soundproofing, accessible facilities and general comfort.
+   2. Any person's inability to maintain their sleep, nutrition, dressing and mobility routines as a direct or indirect result of engaging with the assignment needs to be discussed and resolved with the help of qualified professionals via regularly scheduled meetings.
+4. Naming convention
+   1. Use UTF-8 charset. Avoid ASCII and other character encodings as much as possible. 
+   2. Any computer_addressable-entity is better named in full, human readable words i.e. character strings. Begin a name by only using small cap alphabets. Use a dash to separate chars/words that are conceptually different. Use an underscore to join chars/words that allude to a single concept. Do not use any other special characters. Use of numerals after the first character in the string is valid. 
+5. Data collection
+   1. The dataset of conference call transcripts are labeled calls-txt.tar.gz These text files were extracted from pdf files of mostly publicly disclosed earnings call transcripts pertaining to S&P 500 companies  from 1995 to 2015.
+   2. The .txt files have a naming convention with the company ticker, the market exchange and date of the record. 
+   3. The existing character encoding in the text files was auto generated which has caused various files to become unreadable. Identifying these files hasn't been possible. During runtime of an analysis script the improper file can cause an issue. If the issue is silently passed the resulting analysis will have fundamental errors imperceptible to human inspection. A halting failure due to such a file that doesn't pass silently is more welcome. Knowing what to do for handling such a failure in the analysis pipeline is a whole new process of creative trial and error.
