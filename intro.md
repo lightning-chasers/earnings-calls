@@ -7,11 +7,13 @@ The dropbox folder contains:
  - call-txt.tar.gz
  
      5+ GB of .txt files in zipped format. 
+     
      Each file is a transcript of a conference call and usually an earnings call report.
      
  - cfo-qa_section-each_call.tar.gz
  
      2+ GB of .txt files in zipped format. 
+     
      Each file has the answers by a CFO during Q&A section extracted from the call.
      
  - lightning-chaser.txt
