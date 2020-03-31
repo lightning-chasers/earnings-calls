@@ -1,7 +1,7 @@
 # earnings-calls
 Earnings calls of all S&amp;P500 companies from 1995 to 2015 
 
-Dropbox link: [shorturl.at/bdwx5]
+Dropbox link: [shorturl.at/bdwx5](shorturl.at/bdwx5)
 
 The dropbox folder contains:
  - call-txt.tar.gz 
