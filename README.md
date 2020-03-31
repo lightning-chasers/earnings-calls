@@ -21,10 +21,10 @@ The dropbox folder contains:
 ## Parse the text files
 Use the sloppy example codes along with CEO or CFO aliases to extract different types of data.
 
-- Particularly look for the keyword "fall" or "falling" in the texts 
+- Particularly look for the keyword "fall" or "falling" or "failed" in the texts 
 
-    Using machine learning techniques, analyze the speech of analysts and chief officers before, during and after resession periods. Just before and during, the chief officers tend to speak about the fall in profits or falling outputs, etc. etc. 
+    Using machine learning techniques, analyze the speech of analysts and chief officers before, during and after recession periods. Just before and during recessions or market upsets, the chief officers tend to speak about the fall in profits or falling outputs, or failed projects or failing investments, etc. etc. 
     
- - Analyst names and titles (employer details) can be graphed from this dataset
+ - Analyst names and titles (employer details) can be graphed from this dataset. The ones from Merrill Lynch and banks tend to downgrade the stock market price of certain companies right after a call even if the call was extrememly positive and the company was doing better than expected.
  
- - Unscrupulous CEOs and CFOs who tanked the company by misdirecting public investors or by shifting to a competitor company with trade secrets can be found in this dataset. 
+ - Unscrupulous CEOs and CFOs who tanked their company by misdirecting public investors or by shifting to a competitor company with trade secrets can be found in this dataset. They tend to speak about key technology projects having unique project names during the conference calls of companies they were preveiously and later a part of. 
